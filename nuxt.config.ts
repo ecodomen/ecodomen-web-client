@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     modules: [
         "@pinia/nuxt"
     ],
+    pages: true,
+
+    css: [
+        '~/assets/css/project.css',
+    ],
 
     nitro: {
         compressPublicAssets: {
